@@ -19,5 +19,4 @@ const processData = (data2) => {
 fetchData().then((data) => {
   console.log(data);
   processData(data).then((item)=> console.log(item))
-});
-
+})
